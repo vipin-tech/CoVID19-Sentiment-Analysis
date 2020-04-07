@@ -1,0 +1,6 @@
+04/07/2020 07:51:03 PM Scheduler started
+04/07/2020 07:51:03 PM Looking for jobs to run
+04/07/2020 07:51:03 PM No jobs; waiting until a job is added
+04/07/2020 07:51:03 PM Added job "collect_recent_tweets" to job store "default"
+04/07/2020 07:51:03 PM Looking for jobs to run
+04/07/2020 07:51:03 PM Next wakeup is due at 2020-04-07 20:21:03.547493+01:00 (in 1799.999165 seconds)
