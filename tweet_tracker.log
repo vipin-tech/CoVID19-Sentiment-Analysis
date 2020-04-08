@@ -4,3 +4,884 @@
 04/07/2020 07:51:03 PM Added job "collect_recent_tweets" to job store "default"
 04/07/2020 07:51:03 PM Looking for jobs to run
 04/07/2020 07:51:03 PM Next wakeup is due at 2020-04-07 20:21:03.547493+01:00 (in 1799.999165 seconds)
+04/09/2020 12:17:57 AM Scheduler started
+04/09/2020 12:17:57 AM Looking for jobs to run
+04/09/2020 12:17:57 AM No jobs; waiting until a job is added
+04/09/2020 12:20:55 AM Scheduler started
+04/09/2020 12:20:55 AM Looking for jobs to run
+04/09/2020 12:20:55 AM No jobs; waiting until a job is added
+04/09/2020 12:21:49 AM Scheduler started
+04/09/2020 12:21:49 AM Looking for jobs to run
+04/09/2020 12:21:49 AM No jobs; waiting until a job is added
+04/09/2020 12:25:06 AM Scheduler started
+04/09/2020 12:25:06 AM Looking for jobs to run
+04/09/2020 12:25:06 AM No jobs; waiting until a job is added
+04/09/2020 12:30:49 AM Scheduler started
+04/09/2020 12:30:49 AM Looking for jobs to run
+04/09/2020 12:30:49 AM No jobs; waiting until a job is added
+04/09/2020 12:30:49 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:30:49 AM Looking for jobs to run
+04/09/2020 12:30:49 AM Next wakeup is due at 2020-04-09 00:30:59.256417+01:00 (in 9.945791 seconds)
+04/09/2020 12:30:59 AM Looking for jobs to run
+04/09/2020 12:30:59 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:30:59 IST)" (scheduled at 2020-04-09 00:30:59.256417+01:00)
+04/09/2020 12:30:59 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1799.996476 seconds)
+04/09/2020 12:30:59 AM Start Collecting recent tweets.
+04/09/2020 12:30:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:30:59 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:30:59 AM Looking for jobs to run
+04/09/2020 12:30:59 AM Next wakeup is due at 2020-04-09 00:31:09.568369+01:00 (in 9.998286 seconds)
+04/09/2020 12:30:59 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88051
+
+
+04/09/2020 12:31:17 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:17 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 82800
+04/09/2020 12:31:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86831
+04/09/2020 12:31:19 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:19 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:20 AM Looking for jobs to run
+04/09/2020 12:31:20 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:31:20 IST)" (scheduled at 2020-04-09 00:31:20.143341+01:00)
+04/09/2020 12:31:20 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1779.108507 seconds)
+04/09/2020 12:31:20 AM Start Collecting recent tweets.
+04/09/2020 12:31:20 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:20 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88528
+04/09/2020 12:31:20 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88059
+04/09/2020 12:31:20 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:31:20 AM Looking for jobs to run
+04/09/2020 12:31:20 AM Next wakeup is due at 2020-04-09 00:31:30.292873+01:00 (in 9.998842 seconds)
+04/09/2020 12:31:20 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 82609
+04/09/2020 12:31:21 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:21 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:21 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88919
+04/09/2020 12:31:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88410
+04/09/2020 12:31:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89838
+04/09/2020 12:31:23 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90538
+04/09/2020 12:31:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90041
+04/09/2020 12:31:24 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:24 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:25 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:25 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91689
+04/09/2020 12:31:25 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91597
+04/09/2020 12:31:25 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92071
+04/09/2020 12:31:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 94059
+04/09/2020 12:31:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93906
+04/09/2020 12:31:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 94066
+04/09/2020 12:31:29 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:30 AM Looking for jobs to run
+04/09/2020 12:31:30 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:31:30 IST)" (scheduled at 2020-04-09 00:31:30.292873+01:00)
+04/09/2020 12:31:30 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1768.957434 seconds)
+04/09/2020 12:31:30 AM Start Collecting recent tweets.
+04/09/2020 12:31:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:30 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:31:30 AM Looking for jobs to run
+04/09/2020 12:31:30 AM Next wakeup is due at 2020-04-09 00:31:40.592103+01:00 (in 9.998708 seconds)
+04/09/2020 12:31:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:31 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91936
+04/09/2020 12:31:31 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92127
+04/09/2020 12:31:31 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91938
+04/09/2020 12:31:31 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91957
+04/09/2020 12:31:32 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91330
+04/09/2020 12:31:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90810
+04/09/2020 12:31:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91587
+04/09/2020 12:31:35 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:36 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89756
+04/09/2020 12:31:36 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:37 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:37 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:38 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:38 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87507
+04/09/2020 12:31:38 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87491
+04/09/2020 12:31:38 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87518
+04/09/2020 12:31:39 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87495
+04/09/2020 12:31:39 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:40 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:40 AM Looking for jobs to run
+04/09/2020 12:31:40 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:31:40 IST)" (scheduled at 2020-04-09 00:31:40.592103+01:00)
+04/09/2020 12:31:40 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1758.662888 seconds)
+04/09/2020 12:31:40 AM Start Collecting recent tweets.
+04/09/2020 12:31:40 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:41 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:31:41 AM Looking for jobs to run
+04/09/2020 12:31:41 AM Next wakeup is due at 2020-04-09 00:31:51.188488+01:00 (in 9.998682 seconds)
+04/09/2020 12:31:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:41 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86604
+04/09/2020 12:31:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87140
+04/09/2020 12:31:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86723
+04/09/2020 12:31:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87134
+04/09/2020 12:31:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87137
+04/09/2020 12:31:43 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:43 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:44 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:45 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85775
+04/09/2020 12:31:45 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85164
+04/09/2020 12:31:45 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85768
+04/09/2020 12:31:45 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:47 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:48 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84391
+04/09/2020 12:31:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83761
+04/09/2020 12:31:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84405
+04/09/2020 12:31:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84403
+04/09/2020 12:31:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84409
+04/09/2020 12:31:50 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:50 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:51 AM Looking for jobs to run
+04/09/2020 12:31:51 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:31:51 IST)" (scheduled at 2020-04-09 00:31:51.188488+01:00)
+04/09/2020 12:31:51 AM Start Collecting recent tweets.
+04/09/2020 12:31:51 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1748.064464 seconds)
+04/09/2020 12:31:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:51 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:31:51 AM Looking for jobs to run
+04/09/2020 12:31:51 AM Next wakeup is due at 2020-04-09 00:32:01.380527+01:00 (in 9.998890 seconds)
+04/09/2020 12:31:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:52 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87198
+04/09/2020 12:31:52 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86797
+04/09/2020 12:31:52 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88193
+04/09/2020 12:31:52 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86789
+04/09/2020 12:31:52 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87193
+04/09/2020 12:31:52 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:53 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:53 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:54 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88333
+04/09/2020 12:31:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87879
+04/09/2020 12:31:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88527
+04/09/2020 12:31:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87880
+04/09/2020 12:31:55 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:55 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:56 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:56 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:57 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91326
+04/09/2020 12:31:57 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:57 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90133
+04/09/2020 12:31:58 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89873
+04/09/2020 12:31:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89899
+04/09/2020 12:31:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90147
+04/09/2020 12:31:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89685
+04/09/2020 12:31:58 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:31:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:00 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90564
+04/09/2020 12:32:00 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:01 AM Looking for jobs to run
+04/09/2020 12:32:01 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:32:01 IST)" (scheduled at 2020-04-09 00:32:01.380527+01:00)
+04/09/2020 12:32:01 AM Start Collecting recent tweets.
+04/09/2020 12:32:01 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1737.871071 seconds)
+04/09/2020 12:32:01 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:01 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:01 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:32:01 AM Looking for jobs to run
+04/09/2020 12:32:01 AM Next wakeup is due at 2020-04-09 00:32:11.765448+01:00 (in 9.998850 seconds)
+04/09/2020 12:32:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89680
+04/09/2020 12:32:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89330
+04/09/2020 12:32:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88911
+04/09/2020 12:32:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89118
+04/09/2020 12:32:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89117
+04/09/2020 12:32:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89119
+04/09/2020 12:32:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89122
+04/09/2020 12:32:03 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:03 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:05 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89525
+04/09/2020 12:32:05 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89526
+04/09/2020 12:32:05 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89519
+04/09/2020 12:32:05 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89517
+04/09/2020 12:32:05 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89961
+04/09/2020 12:32:06 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:07 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89658
+04/09/2020 12:32:07 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:08 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:08 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87275
+04/09/2020 12:32:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87280
+04/09/2020 12:32:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87284
+04/09/2020 12:32:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86635
+04/09/2020 12:32:10 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87535
+04/09/2020 12:32:11 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87427
+04/09/2020 12:32:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:11 AM Looking for jobs to run
+04/09/2020 12:32:11 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:32:11 IST)" (scheduled at 2020-04-09 00:32:11.765448+01:00)
+04/09/2020 12:32:11 AM Start Collecting recent tweets.
+04/09/2020 12:32:11 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1727.488213 seconds)
+04/09/2020 12:32:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:12 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:12 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:32:12 AM Looking for jobs to run
+04/09/2020 12:32:12 AM Next wakeup is due at 2020-04-09 00:32:22.533850+01:00 (in 9.998949 seconds)
+04/09/2020 12:32:12 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:12 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87297
+04/09/2020 12:32:13 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:13 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88409
+04/09/2020 12:32:14 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:14 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:15 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88672
+04/09/2020 12:32:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:15 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88667
+04/09/2020 12:32:15 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88478
+04/09/2020 12:32:15 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88655
+04/09/2020 12:32:15 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88586
+04/09/2020 12:32:16 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87114
+04/09/2020 12:32:16 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86574
+04/09/2020 12:32:16 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87039
+04/09/2020 12:32:17 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:18 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:18 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:19 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:20 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:21 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:21 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88207
+04/09/2020 12:32:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89849
+04/09/2020 12:32:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89845
+04/09/2020 12:32:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89842
+04/09/2020 12:32:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:22 AM Looking for jobs to run
+04/09/2020 12:32:22 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:32:22 IST)" (scheduled at 2020-04-09 00:32:22.533850+01:00)
+04/09/2020 12:32:22 AM Start Collecting recent tweets.
+04/09/2020 12:32:22 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1716.717510 seconds)
+04/09/2020 12:32:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89258
+04/09/2020 12:32:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89499
+04/09/2020 12:32:23 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:32:23 AM Looking for jobs to run
+04/09/2020 12:32:23 AM Next wakeup is due at 2020-04-09 00:32:33.104251+01:00 (in 9.946321 seconds)
+04/09/2020 12:32:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89578
+04/09/2020 12:32:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89585
+04/09/2020 12:32:24 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:24 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89356
+04/09/2020 12:32:24 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:25 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:25 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:26 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89489
+04/09/2020 12:32:26 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:26 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:28 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:28 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88561
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88543
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88128
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88128
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88557
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88136
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88555
+04/09/2020 12:32:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88137
+04/09/2020 12:32:29 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:30 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88185
+04/09/2020 12:32:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:31 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:32 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:33 AM Looking for jobs to run
+04/09/2020 12:32:33 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:32:33 IST)" (scheduled at 2020-04-09 00:32:33.104251+01:00)
+04/09/2020 12:32:33 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1706.147942 seconds)
+04/09/2020 12:32:33 AM Start Collecting recent tweets.
+04/09/2020 12:32:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:33 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:32:33 AM Looking for jobs to run
+04/09/2020 12:32:33 AM Next wakeup is due at 2020-04-09 00:32:43.263424+01:00 (in 9.998886 seconds)
+04/09/2020 12:32:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:34 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88060
+04/09/2020 12:32:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88063
+04/09/2020 12:32:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88065
+04/09/2020 12:32:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88061
+04/09/2020 12:32:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87932
+04/09/2020 12:32:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88557
+04/09/2020 12:32:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88761
+04/09/2020 12:32:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88551
+04/09/2020 12:32:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89017
+04/09/2020 12:32:35 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:36 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:36 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87889
+04/09/2020 12:32:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87888
+04/09/2020 12:32:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87892
+04/09/2020 12:32:38 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:38 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:39 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:39 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:40 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:40 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84334
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84315
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84320
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84326
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84344
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84327
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84003
+04/09/2020 12:32:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83992
+04/09/2020 12:32:43 AM Looking for jobs to run
+04/09/2020 12:32:43 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1695.989067 seconds)
+04/09/2020 12:32:43 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:32:43 AM Looking for jobs to run
+04/09/2020 12:32:43 AM Next wakeup is due at 2020-04-09 00:32:53.603756+01:00 (in 9.994492 seconds)
+04/09/2020 12:32:43 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:44 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:45 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:45 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85283
+04/09/2020 12:32:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:47 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:47 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:47 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85903
+04/09/2020 12:32:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85899
+04/09/2020 12:32:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85904
+04/09/2020 12:32:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85880
+04/09/2020 12:32:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85884
+04/09/2020 12:32:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85908
+04/09/2020 12:32:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85873
+04/09/2020 12:32:48 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86782
+04/09/2020 12:32:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86602
+04/09/2020 12:32:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86699
+04/09/2020 12:32:49 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:50 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:52 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:52 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:53 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:53 AM Looking for jobs to run
+04/09/2020 12:32:53 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1685.647470 seconds)
+04/09/2020 12:32:54 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:54 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:32:54 AM Looking for jobs to run
+04/09/2020 12:32:54 AM Next wakeup is due at 2020-04-09 00:33:04.217614+01:00 (in 9.998383 seconds)
+04/09/2020 12:32:54 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84938
+04/09/2020 12:32:54 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84933
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84934
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84713
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84698
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84712
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84709
+04/09/2020 12:32:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84709
+04/09/2020 12:32:55 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84708
+04/09/2020 12:32:55 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84392
+04/09/2020 12:32:55 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:56 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:56 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:57 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:57 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87282
+04/09/2020 12:32:58 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86815
+04/09/2020 12:32:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:32:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86273
+04/09/2020 12:33:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85931
+04/09/2020 12:33:00 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:00 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:01 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:02 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87996
+04/09/2020 12:33:02 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:03 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87784
+04/09/2020 12:33:03 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87785
+04/09/2020 12:33:03 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87782
+04/09/2020 12:33:03 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:03 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87786
+04/09/2020 12:33:03 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87776
+04/09/2020 12:33:03 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88412
+04/09/2020 12:33:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:04 AM Looking for jobs to run
+04/09/2020 12:33:04 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1675.032421 seconds)
+04/09/2020 12:33:04 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:33:04 AM Looking for jobs to run
+04/09/2020 12:33:04 AM Next wakeup is due at 2020-04-09 00:33:14.439184+01:00 (in 9.996220 seconds)
+04/09/2020 12:33:04 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88289
+04/09/2020 12:33:04 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87246
+04/09/2020 12:33:04 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87242
+04/09/2020 12:33:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86307
+04/09/2020 12:33:06 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:07 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:07 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:08 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:08 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:09 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85870
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86421
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86732
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86909
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86421
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86729
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86725
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86723
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86622
+04/09/2020 12:33:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86726
+04/09/2020 12:33:10 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:12 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90681
+04/09/2020 12:33:12 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90856
+04/09/2020 12:33:12 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91218
+04/09/2020 12:33:13 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:14 AM Looking for jobs to run
+04/09/2020 12:33:14 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1664.811961 seconds)
+04/09/2020 12:33:14 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:14 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:33:14 AM Looking for jobs to run
+04/09/2020 12:33:14 AM Next wakeup is due at 2020-04-09 00:33:24.883605+01:00 (in 9.998790 seconds)
+04/09/2020 12:33:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:16 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:16 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:18 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:18 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:18 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90550
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90059
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90554
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90547
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90051
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90549
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90552
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90625
+04/09/2020 12:33:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90755
+04/09/2020 12:33:19 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90977
+04/09/2020 12:33:20 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:20 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:21 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:21 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:23 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89708
+04/09/2020 12:33:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90301
+04/09/2020 12:33:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89716
+04/09/2020 12:33:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90298
+04/09/2020 12:33:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89452
+04/09/2020 12:33:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90306
+04/09/2020 12:33:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90833
+04/09/2020 12:33:24 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:24 AM Looking for jobs to run
+04/09/2020 12:33:24 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1654.369771 seconds)
+04/09/2020 12:33:25 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:25 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:25 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:33:25 AM Looking for jobs to run
+04/09/2020 12:33:25 AM Next wakeup is due at 2020-04-09 00:33:35.771264+01:00 (in 9.999343 seconds)
+04/09/2020 12:33:26 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:26 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93021
+04/09/2020 12:33:28 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:28 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92990
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93519
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93481
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93489
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93486
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93482
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93498
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93387
+04/09/2020 12:33:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93489
+04/09/2020 12:33:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:31 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:31 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:32 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:32 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:34 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:34 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91594
+04/09/2020 12:33:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91595
+04/09/2020 12:33:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91587
+04/09/2020 12:33:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91585
+04/09/2020 12:33:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91617
+04/09/2020 12:33:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91597
+04/09/2020 12:33:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91597
+04/09/2020 12:33:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91596
+04/09/2020 12:33:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91843
+04/09/2020 12:33:35 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:35 AM Looking for jobs to run
+04/09/2020 12:33:35 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1643.480203 seconds)
+04/09/2020 12:33:35 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:36 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:36 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:33:36 AM Looking for jobs to run
+04/09/2020 12:33:36 AM Next wakeup is due at 2020-04-09 00:33:46.556306+01:00 (in 9.997815 seconds)
+04/09/2020 12:33:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92048
+04/09/2020 12:33:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92049
+04/09/2020 12:33:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91851
+04/09/2020 12:33:37 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:37 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:38 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:38 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:39 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:39 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:40 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:40 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92391
+04/09/2020 12:33:40 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91966
+04/09/2020 12:33:40 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91818
+04/09/2020 12:33:40 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92138
+04/09/2020 12:33:40 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92141
+04/09/2020 12:33:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:41 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 93433
+04/09/2020 12:33:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:42 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:43 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:43 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:44 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:44 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:45 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:45 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90968
+04/09/2020 12:33:45 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:45 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90753
+04/09/2020 12:33:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90742
+04/09/2020 12:33:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90834
+04/09/2020 12:33:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90835
+04/09/2020 12:33:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90850
+04/09/2020 12:33:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90844
+04/09/2020 12:33:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90846
+04/09/2020 12:33:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90856
+04/09/2020 12:33:46 AM Looking for jobs to run
+04/09/2020 12:33:46 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1632.697091 seconds)
+04/09/2020 12:33:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:47 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:33:47 AM Looking for jobs to run
+04/09/2020 12:33:47 AM Next wakeup is due at 2020-04-09 00:33:57.119642+01:00 (in 9.998851 seconds)
+04/09/2020 12:33:47 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:47 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89148
+04/09/2020 12:33:48 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:48 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89043
+04/09/2020 12:33:49 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89489
+04/09/2020 12:33:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89427
+04/09/2020 12:33:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89272
+04/09/2020 12:33:50 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:50 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:52 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90024
+04/09/2020 12:33:52 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:52 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:53 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:54 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:54 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88010
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87765
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87908
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87989
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88433
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87993
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88429
+04/09/2020 12:33:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88430
+04/09/2020 12:33:55 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88270
+04/09/2020 12:33:55 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:55 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:56 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:56 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:57 AM Looking for jobs to run
+04/09/2020 12:33:57 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1622.132197 seconds)
+04/09/2020 12:33:57 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:33:57 AM Looking for jobs to run
+04/09/2020 12:33:57 AM Next wakeup is due at 2020-04-09 00:34:07.244967+01:00 (in 9.998491 seconds)
+04/09/2020 12:33:57 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85080
+04/09/2020 12:33:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84742
+04/09/2020 12:33:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85262
+04/09/2020 12:33:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85262
+04/09/2020 12:33:58 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85259
+04/09/2020 12:33:58 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:33:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:00 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84497
+04/09/2020 12:34:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84503
+04/09/2020 12:34:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84504
+04/09/2020 12:34:01 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84424
+04/09/2020 12:34:01 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84415
+04/09/2020 12:34:02 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:02 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:03 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:03 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:06 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87247
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86662
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86666
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87443
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87241
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87246
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87246
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87447
+04/09/2020 12:34:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87443
+04/09/2020 12:34:07 AM Looking for jobs to run
+04/09/2020 12:34:07 AM Next wakeup is due at 2020-04-09 01:00:59.256417+01:00 (in 1611.993448 seconds)
+04/09/2020 12:34:07 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:34:07 AM Looking for jobs to run
+04/09/2020 12:34:07 AM Next wakeup is due at 2020-04-09 00:34:17.491569+01:00 (in 9.996964 seconds)
+04/09/2020 12:34:07 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:08 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:34:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:37:27 AM Scheduler started
+04/09/2020 12:37:27 AM Looking for jobs to run
+04/09/2020 12:37:27 AM No jobs; waiting until a job is added
+04/09/2020 12:37:44 AM Scheduler started
+04/09/2020 12:37:44 AM Looking for jobs to run
+04/09/2020 12:37:44 AM No jobs; waiting until a job is added
+04/09/2020 12:38:08 AM Scheduler started
+04/09/2020 12:38:08 AM Looking for jobs to run
+04/09/2020 12:38:08 AM No jobs; waiting until a job is added
+04/09/2020 12:42:52 AM Scheduler started
+04/09/2020 12:42:52 AM Looking for jobs to run
+04/09/2020 12:42:52 AM No jobs; waiting until a job is added
+04/09/2020 12:42:52 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:42:52 AM Looking for jobs to run
+04/09/2020 12:42:52 AM Next wakeup is due at 2020-04-09 00:43:02.419302+01:00 (in 9.950537 seconds)
+04/09/2020 12:43:02 AM Looking for jobs to run
+04/09/2020 12:43:02 AM Running job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 00:43:02 IST)" (scheduled at 2020-04-09 00:43:02.419302+01:00)
+04/09/2020 12:43:02 AM Next wakeup is due at 2020-04-09 01:13:02.419302+01:00 (in 1799.996943 seconds)
+04/09/2020 12:43:02 AM Start Collecting recent tweets.
+04/09/2020 12:43:02 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:02 AM Added job "collect_recent_tweets" to job store "default"
+04/09/2020 12:43:02 AM Looking for jobs to run
+04/09/2020 12:43:02 AM Next wakeup is due at 2020-04-09 01:13:02.419302+01:00 (in 1799.527130 seconds)
+04/09/2020 12:43:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92596
+04/09/2020 12:43:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:04 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91995
+04/09/2020 12:43:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:05 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91813
+04/09/2020 12:43:06 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90453
+04/09/2020 12:43:07 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:08 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88843
+04/09/2020 12:43:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:09 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87963
+04/09/2020 12:43:10 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87610
+04/09/2020 12:43:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:12 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85477
+04/09/2020 12:43:13 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:13 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85238
+04/09/2020 12:43:14 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:14 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85176
+04/09/2020 12:43:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:15 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86563
+04/09/2020 12:43:16 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:17 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85603
+04/09/2020 12:43:17 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83884
+04/09/2020 12:43:19 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:19 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83874
+04/09/2020 12:43:20 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:20 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83637
+04/09/2020 12:43:21 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83021
+04/09/2020 12:43:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:23 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83982
+04/09/2020 12:43:24 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:24 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84276
+04/09/2020 12:43:25 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:25 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84219
+04/09/2020 12:43:26 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:27 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87335
+04/09/2020 12:43:28 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:28 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88865
+04/09/2020 12:43:29 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:30 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89416
+04/09/2020 12:43:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:31 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87204
+04/09/2020 12:43:32 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:32 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86116
+04/09/2020 12:43:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:33 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84973
+04/09/2020 12:43:34 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86010
+04/09/2020 12:43:36 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:36 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87424
+04/09/2020 12:43:37 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88467
+04/09/2020 12:43:38 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:39 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90861
+04/09/2020 12:43:40 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:40 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90666
+04/09/2020 12:43:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90887
+04/09/2020 12:43:43 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:43 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91294
+04/09/2020 12:43:44 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:44 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91354
+04/09/2020 12:43:45 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92813
+04/09/2020 12:43:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:47 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91757
+04/09/2020 12:43:48 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89588
+04/09/2020 12:43:49 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:50 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91036
+04/09/2020 12:43:50 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:51 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91307
+04/09/2020 12:43:52 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:53 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 92234
+04/09/2020 12:43:53 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:54 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91948
+04/09/2020 12:43:55 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:56 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91965
+04/09/2020 12:43:57 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:57 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91246
+04/09/2020 12:43:58 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:43:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88048
+04/09/2020 12:43:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88094
+04/09/2020 12:44:01 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87461
+04/09/2020 12:44:02 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:03 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86235
+04/09/2020 12:44:04 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:04 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86382
+04/09/2020 12:44:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:06 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85973
+04/09/2020 12:44:06 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:07 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86000
+04/09/2020 12:44:08 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:08 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84942
+04/09/2020 12:44:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:10 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85348
+04/09/2020 12:44:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:11 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83399
+04/09/2020 12:44:12 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:13 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83310
+04/09/2020 12:44:14 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:14 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83287
+04/09/2020 12:44:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:17 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83683
+04/09/2020 12:44:18 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83442
+04/09/2020 12:44:19 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:20 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83559
+04/09/2020 12:44:20 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:21 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 82908
+04/09/2020 12:44:22 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:22 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83910
+04/09/2020 12:44:23 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:24 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 82806
+04/09/2020 12:44:24 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:25 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83746
+04/09/2020 12:44:26 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:26 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 82710
+04/09/2020 12:44:27 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:27 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85152
+04/09/2020 12:44:28 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:29 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84427
+04/09/2020 12:44:29 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:30 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87258
+04/09/2020 12:44:30 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:31 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87128
+04/09/2020 12:44:32 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:33 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88522
+04/09/2020 12:44:33 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:34 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88251
+04/09/2020 12:44:35 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:35 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88249
+04/09/2020 12:44:36 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:37 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88865
+04/09/2020 12:44:38 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:39 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89125
+04/09/2020 12:44:39 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:40 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89918
+04/09/2020 12:44:41 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:41 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90279
+04/09/2020 12:44:42 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:42 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89901
+04/09/2020 12:44:43 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:44 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90881
+04/09/2020 12:44:45 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:45 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90656
+04/09/2020 12:44:46 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:46 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 91028
+04/09/2020 12:44:47 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:48 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90502
+04/09/2020 12:44:49 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:49 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90978
+04/09/2020 12:44:50 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:51 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89090
+04/09/2020 12:44:51 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:52 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90005
+04/09/2020 12:44:53 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:53 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89393
+04/09/2020 12:44:54 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:55 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 90136
+04/09/2020 12:44:56 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:57 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87727
+04/09/2020 12:44:58 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:44:58 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 88017
+04/09/2020 12:44:59 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:00 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89796
+04/09/2020 12:45:00 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:01 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 89788
+04/09/2020 12:45:02 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:02 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 87023
+04/09/2020 12:45:03 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:04 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86749
+04/09/2020 12:45:05 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:05 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85271
+04/09/2020 12:45:06 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:07 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85417
+04/09/2020 12:45:07 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:08 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84090
+04/09/2020 12:45:09 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:09 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 83329
+04/09/2020 12:45:10 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:11 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84279
+04/09/2020 12:45:11 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:12 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 84517
+04/09/2020 12:45:13 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:13 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85236
+04/09/2020 12:45:14 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:15 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85463
+04/09/2020 12:45:15 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:16 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85506
+04/09/2020 12:45:17 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:17 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 85965
+04/09/2020 12:45:18 AM Starting new HTTPS connection (1): api.twitter.com:443
+04/09/2020 12:45:18 AM https://api.twitter.com:443 "GET /1.1/search/tweets.json?lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23LockdownORresult_type=recentOR%23ireland HTTP/1.1" 200 86616
+04/09/2020 12:45:19 AM Job "collect_recent_tweets (trigger: interval[0:30:00], next run at: 2020-04-09 01:13:02 IST)" executed successfully

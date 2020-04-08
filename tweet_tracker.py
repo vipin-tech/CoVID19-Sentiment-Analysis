@@ -1,38 +1,41 @@
+import configparser
+import logging
 import re
 import string
 import time
-from datetime import datetime
-from textblob import TextBlob
-
+from datetime import datetime, timedelta
 import requests
-from pymongo import MongoClient
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
+from pymongo import MongoClient
+from textblob import TextBlob
 from scheduler import scheduler
-import logging
 
+# Setup the configuration file
+config = configparser.ConfigParser()
+config.read('tweet_tracker.cfg')
 
 logging.basicConfig(format='%(asctime)s %(message)s',
                     datefmt='%m/%d/%Y %I:%M:%S %p',
                     filename='tweet_tracker.log',
                     level=logging.DEBUG)
 
-Log = logging.getLogger('simple_example')
+Log = logging.getLogger('tweet_tracker.log')
 
 if not scheduler.running:
     scheduler.start()
 
-base_url = 'https://api.twitter.com/1.1/search/tweets.json?'
-query_param = 'lang=en&tweet_mode=extended&q=%23coronavirus&count=1000OR%23virusOR%23CoronavirusPandemicOR%23Lockdown OR' \
-              'result_type=recentOR%23ireland'
-headers = {'Host': 'api.twitter.com',
-           'User-Agent': 'My Twitter App v1.0.23',
-           'Accept-Encoding': 'gzip',
-           'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAALuUDQEAAAAAb1gcVbM8f7747%2FTZvWm7WrytxdI%3Dn7L1z9ekplnGxSqhJgQ9TfFOrxkW2Xyt5l8h6dMn1ZMXZHvqSo'}
+base_url = config['DEFAULT']['BASE_URL']
+query_param = config['query']['QUERY_PARAM']
+headers = dict()
+
+headers['Host'] = config['headers']['HOST']
+headers['User-Agent'] = config['headers']['USER_AGENT']
+headers['Accept-Encoding'] = config['headers']['ACCEPT_ENCODING']
+headers['Authorization'] = config['headers']['AUTHORIZATION']
 
 # Establish the connection to the database
-mongo_client = MongoClient(
-    'mongodb+srv://admin:admin@tweet-analysis-lqooy.mongodb.net/test?retryWrites=true&w=majority')
+mongo_client = MongoClient(config['mongo.client']['MONGO_CLIENT'])
 
 # Connect to the collection `recent_tweets`
 recent_tweets = mongo_client.twitter_db.recent_tweets
@@ -160,9 +163,17 @@ def collect_recent_tweets():
             Log.error("Error while collecting logs. %s", str(ex))
 
 
+start_date = datetime.now() + timedelta(seconds=10)
+
+
 def Call():
-    t = 30
-    job = scheduler.add_job(func=collect_recent_tweets, trigger='interval', minutes=t, max_instances=4, coalesce=True)
+
+    # Set the schedule interval in configuration file.
+    t = config['schedule.param']['SCHEDULE_TIME']
+
+    job = scheduler.add_job(collect_recent_tweets, start_date=start_date,
+                            trigger='interval', minutes=int(t), max_instances=4, coalesce=True)
+
     sleep_time = datetime.timestamp(job.next_run_time) - int(time.time())
     print("Next Wakeup Call in {}. Next Run Time {} ".format(sleep_time, job.next_run_time))
     time.sleep(sleep_time)
