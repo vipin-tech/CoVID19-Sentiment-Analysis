@@ -22,13 +22,16 @@ logging.basicConfig(format='%(asctime)s %(message)s',
 
 Log = logging.getLogger('tweet_tracker.log')
 
+# If scheduler is not running, start the scheduler
 if not scheduler.running:
     scheduler.start()
 
-base_url = config['DEFAULT']['BASE_URL']
-query_param = config['query']['QUERY_PARAM']
 headers = dict()
 
+# Prepare the query parameters
+
+base_url = config['DEFAULT']['BASE_URL']
+query_param = config['query']['QUERY_PARAM']
 headers['Host'] = config['headers']['HOST']
 headers['User-Agent'] = config['headers']['USER_AGENT']
 headers['Accept-Encoding'] = config['headers']['ACCEPT_ENCODING']
@@ -42,6 +45,7 @@ recent_tweets = mongo_client.twitter_db.recent_tweets
 
 
 def tag_sentiment_type(polarity):
+    """ Tag the sentiment for a tweet based on the polarity. """
 
     sentiment_type = 'positive'
 
@@ -71,13 +75,13 @@ def perform_sentiment_analysis(text):
         return polarity, subjectivity, sentiment_type
 
     except Exception as ex:
-        print(str(ex))
+        Log.error(str(ex))
 
 
 def clean_text(text):
-    """
-    This method cleans up the data and returns the str
-    """
+    """ This method cleans up the data and returns the str """
+
+    # googletrans is not the free api. Can make only few requests.
     # Translate the text if found in other languages.
     # if detect(text) != 'en':
     #    text = translator.translate(text).text
@@ -166,7 +170,7 @@ def collect_recent_tweets():
 start_date = datetime.now() + timedelta(seconds=10)
 
 
-def Call():
+def collect_twitter_data():
 
     # Set the schedule interval in configuration file.
     t = config['schedule.param']['SCHEDULE_TIME']
@@ -180,7 +184,7 @@ def Call():
 
 
 while True:
-    Call()
+    collect_twitter_data()
 
 # collect_recent_tweets()
 
