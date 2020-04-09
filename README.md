@@ -1,7 +1,7 @@
 # CoVID19-Sentiment-Analysis
 ![alt img](https://github.com/vipin-tech/CoVID19-Sentiment-Analysis/blob/master/_images/twitter.png) 
 
-**Almost Realtime Sentiment Analysis on CoVID19 Twitter Data using Twitter API**
+**Almost Realtime Sentiment Analysis on CoVID19 Twitter Data using Twitter API and Pymongo**
 
 The main aim of this project to understand the people's reaction to CoVID.
 
